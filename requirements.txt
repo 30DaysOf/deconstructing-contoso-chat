@@ -1,0 +1,20 @@
+# other app dependencies
+ipykernel
+
+# generative ai SDK dependencies
+azure-ai-generative[index,evaluate,promptflow]
+azure-identity
+
+# hardcoded the version of azureml-mlflow here for faster Docker image building speed
+azureml-mlflow==1.53.0
+pytest
+
+# contoso chat
+promptflow
+promptflow-tools
+azure-cosmos
+azure-search-documents==11.4.0
+azure-ai-ml
+
+# documentation
+mkdocs-material
