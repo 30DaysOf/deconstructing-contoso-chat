@@ -6,10 +6,10 @@ export default defineConfig({
 	integrations: [
 
 		starlight({
-			title: '30DaysOf Astro',
+			title: 'Contoso Chat',
 			logo: {
-				light: './src/assets/astro-light.png',
-				dark: './src/assets/astro-dark.png',
+				light: './src/assets/logo.png',
+				dark: './src/assets/logo.png',
 			},
 			customCss: [
 				'./src/styles/custom.css',
