@@ -3,6 +3,11 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+
+	site: 'https://30daysof.github.io',
+	base: '/deconstructing-contoso-chat',
+	trailingSlash: "always",
+
 	integrations: [
 
 		starlight({
