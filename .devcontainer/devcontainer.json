@@ -13,6 +13,8 @@
 		"ghcr.io/devcontainers/features/node:1": {}
     },
 
+	"postCreateCommand": "cd docs; npm install && npx astro telemetry disable && npm run dev",
+
 	"hostRequirements": {
 		"cpus": 8,
 		"memory": "4gb",
