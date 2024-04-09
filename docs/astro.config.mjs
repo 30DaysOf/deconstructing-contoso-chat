@@ -35,6 +35,7 @@ export default defineConfig({
 			},
 
 			sidebar: [
+				/*
 				{
 					label: 'Concepts',
 					items: [
@@ -42,9 +43,28 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Projects',
+					label: 'Guide',
 					autogenerate: { directory: 'projects' },
 				},
+				*/
+				{
+					label: '01 | Introduction',
+					autogenerate: { directory: '01 | Introduction' },
+				},
+				{
+					label: '02 | Workshop',
+					autogenerate: { directory: '02 | Introduction' },
+				},
+				{
+					label: '03 | Concepts',
+					autogenerate: { directory: '03 | Concepts' },
+				},
+				{
+					label: '04 | Tooling',
+					autogenerate: { directory: '04 | Tooling' },
+				},
+
+				
 			],
 		}),
 
