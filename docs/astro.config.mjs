@@ -35,36 +35,30 @@ export default defineConfig({
 			},
 
 			sidebar: [
-				/*
 				{
-					label: 'Concepts',
-					items: [
-						{ label: 'Learn Fundamentals', link: '/concepts/example/' },
-					],
+					label: 'About',
+					link: '/about/',
 				},
-				{
-					label: 'Guide',
-					autogenerate: { directory: 'projects' },
-				},
-				*/
 				{
 					label: '01 | Introduction',
-					autogenerate: { directory: '01 | Introduction' },
+					collapsed: false,
+					autogenerate: { directory: '01-introduction' },
 				},
 				{
 					label: '02 | Workshop',
-					autogenerate: { directory: '02 | Introduction' },
+					collapsed: true,
+					autogenerate: { directory: '02-workshop' },
 				},
 				{
 					label: '03 | Concepts',
-					autogenerate: { directory: '03 | Concepts' },
+					collapsed: false,
+					autogenerate: { directory: '03-concepts' },
 				},
 				{
 					label: '04 | Tooling',
-					autogenerate: { directory: '04 | Tooling' },
+					collapsed: false,
+					autogenerate: { directory: '04-tooling' },
 				},
-
-				
 			],
 		}),
 
