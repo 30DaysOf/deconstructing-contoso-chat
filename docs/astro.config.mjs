@@ -20,10 +20,9 @@ export default defineConfig({
 				'./src/styles/custom.css',
 			],
 			social: {
-				github: 'https://github.com/nitya',
-				linkedin: 'https://www.linkedin.com/in/nityan',
-				twitter: 'https://twitter.com/nitya',
-				youtube: 'https://youtube.com/@nityanarasimhan',
+				github: 'https://github.com/Azure-Samples/contoso-chat',
+				twitter: 'https://twitter.com/azure',
+				youtube: 'https://youtube.com/@theaishowlive',
 			},
 			
 			defaultLocale: 'root', // optional
