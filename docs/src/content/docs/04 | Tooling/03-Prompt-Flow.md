@@ -1,4 +1,6 @@
-# 03 | Prompt Flow
+---
+title: "03 | Prompt Flow"
+---
 
 !!!warning "This page is under construction. Please check back!"
 

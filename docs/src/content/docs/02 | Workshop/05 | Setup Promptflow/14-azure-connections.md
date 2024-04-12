@@ -1,4 +1,6 @@
-# 14. Azure Config Connections
+---
+title: "14. Azure Config Connections"
+---
 
 > [!NOTE]
 _Your Azure resources are setup. Your local connections are configured. Now let's create **cloud connections** to run prompt flow in Azure later._

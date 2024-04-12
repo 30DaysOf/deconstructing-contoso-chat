@@ -1,4 +1,6 @@
-# 09. VSCode Config Azure
+---
+title: "09. VSCode Config Azure"
+---
 
 > [!NOTE]
 _This assumes you have the Azure Resource Group and related resources provisioned correctly from prior steps. We'll now configure Visual Studio Code to use our provisioned Azure resources._

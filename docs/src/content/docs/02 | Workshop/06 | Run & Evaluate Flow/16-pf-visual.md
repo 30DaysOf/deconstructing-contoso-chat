@@ -1,4 +1,6 @@
-# 16. PromptFlow: Visual Editor
+---
+title: "16. PromptFlow - Visual Editor"
+---
 
 > [!hint]
 > In the previous section, you should have opened Visual Studio Code, navigated to the _contoso-chat_ folder, and opened the _flow.dag.yaml_ file in the editor pane. We also assume you have the _Prompt Flow_ extension installed correctly (see VS Code extensions sidebar).

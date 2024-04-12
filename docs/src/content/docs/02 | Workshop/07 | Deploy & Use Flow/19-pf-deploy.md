@@ -1,4 +1,6 @@
-# 19. PromptFlow: Deploy
+---
+title: "19. PromptFlow: Deploy"
+---
 
 > [!hint]
 > Till now, you've explored, built, tested, and evaluated, the prompt flow _from Visual Studio Code_, as a developer. Now it's time to _deploy the flow to production_ so applications can use the endpoint to make requests and receive responses in real time.

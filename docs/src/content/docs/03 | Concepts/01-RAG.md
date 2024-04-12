@@ -1,4 +1,6 @@
-# 01 | The RAG Pattern
+---
+title:  "01 | The RAG Pattern"
+---
 
 !!!warning "This page is under construction. Please check back!"
 

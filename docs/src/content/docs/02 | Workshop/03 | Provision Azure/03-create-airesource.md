@@ -1,4 +1,6 @@
-# 3.1 | Azure AI Resource
+---
+title: 3.1 | Azure AI Resource
+---
 
 !!!warning "These instructions are for self-guided learners only."
 

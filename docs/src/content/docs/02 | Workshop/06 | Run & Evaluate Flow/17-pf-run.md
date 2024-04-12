@@ -1,4 +1,6 @@
-# 17. PromptFlow: Run
+---
+title: "17. PromptFlow: Run"
+---
 
 > [!hint]
 > In the previous section, you should have opened Visual Studio Code, navigated to the _contoso-chat_ folder, and opened the _flow.dag.yaml_ file in the Visual Editor view.

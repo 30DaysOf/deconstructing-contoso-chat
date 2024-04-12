@@ -1,5 +1,7 @@
-# 05. Create Model Deployments
-
+---
+title: "05. Create Model Deployments"
+---
+ 
 > [!NOTE]
 _Continue here and create resource manually only if your Azure subscription was not pre-provisioned with a lab Resource Group_
 

@@ -1,4 +1,6 @@
-# 08. VSCode Azure Login
+---
+title: "08. VSCode Azure Login"
+---
 
 > [!NOTE]
 _This assumes you did the **[02. Launch GitHub Codespaces](#2-launch-github-codespaces)** step previously and left that tab open for dev container setup to complete._

@@ -1,4 +1,6 @@
-# 04 | Azure AI Studio
+---
+title: "04 | Azure AI Studio"
+---
 
 !!!warning "This page is under construction. Please check back!"
 

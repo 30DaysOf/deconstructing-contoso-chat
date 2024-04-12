@@ -1,4 +1,6 @@
-# 02 | Visual Studio Code
+---
+title:  "02 | Visual Studio Code"
+---
 
 !!!warning "This page is under construction. Please check back!"
 

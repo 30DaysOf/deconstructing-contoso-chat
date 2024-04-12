@@ -1,4 +1,6 @@
-# 1 | Debug Issues
+---
+title: "1 | Debug Issues"
+---
 
 !!!warning "Don't see your issue listed?"
 

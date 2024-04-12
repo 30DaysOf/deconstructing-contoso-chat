@@ -1,4 +1,6 @@
-# 11. VSCode Populate Search
+---
+title: "11. VSCode Populate Search"
+---
 
 > [!NOTE]
 _This assumes you setup the Azure AI Search resource earlier. In this section, we'll populate it with product data and create the index._

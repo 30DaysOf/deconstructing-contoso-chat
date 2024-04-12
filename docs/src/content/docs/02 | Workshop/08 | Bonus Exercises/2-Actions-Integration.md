@@ -1,1 +1,3 @@
-# 2 | GitHub Action Deploy
+---
+title: "2 | GitHub Action Deploy"
+---

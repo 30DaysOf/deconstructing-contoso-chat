@@ -1,4 +1,6 @@
-# 15. PromptFlow: Codebase
+---
+title: "15. PromptFlow: Codebase"
+---
 
 > [!NOTE]
 > Our environment, resources and connections are configured. Now, let's learn about prompt flow and how it works. A **prompt flow is a DAG (directed acyclic graph)** made of up **nodes** connected together in a **flow**. Each node is a **function tool** (written in Python) that can be edited and customized to suit your needs.

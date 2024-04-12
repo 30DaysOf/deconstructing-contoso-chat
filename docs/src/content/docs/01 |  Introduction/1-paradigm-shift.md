@@ -1,8 +1,6 @@
 ---
-title: 01 | The Paradigm Shift
+title: "01 | The Paradigm Shift"
 ---
-
-# 01 | The Paradigm Shift 
 
 Streamlining the end-to-end development workflow for modern "AI apps" requires a paradigm shift from **MLOps** to **LLMOps** that acknowledges the common roots while being mindful of the growing differences. We can view this shift in terms of how it causes us to rethink three things (_mindset_, _workflows_, _tools_) to be more effective in developing generative AI applications.
 

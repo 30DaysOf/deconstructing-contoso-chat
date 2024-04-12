@@ -1,4 +1,6 @@
-# 13. VSCode Config Connections
+---
+title: "13. VSCode Config Connections"
+---
 
 > [!NOTE]
 _This assumes you completed all Azure resource setup and VS Code configuration for those resources. Now let's setup **local Connections** so we can run the prompt flow in VS Code later._

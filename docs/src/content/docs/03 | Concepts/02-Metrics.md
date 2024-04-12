@@ -1,4 +1,6 @@
-# 02 | The Evaluation Metrics
+---
+title: "02 | The Evaluation Metrics"
+---
 
 !!!warning "This page is under construction. Please check back!"
 

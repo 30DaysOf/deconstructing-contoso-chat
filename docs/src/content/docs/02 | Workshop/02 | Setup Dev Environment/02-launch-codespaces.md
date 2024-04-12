@@ -1,10 +1,14 @@
-# 2.2 | Launch Codespaces 
+---
+title: "2.2 | Launch Codespaces"
+---
 
-!!!warning "These instructions are for self-guided learners only."
+:::warning "These instructions are for self-guided learners only."
 
 Instructor-led sessions will use the built-in Skillable manual. However, the outcomes for each step will be the same, so we will reproduce screenshots (and link to video walkthroughs) from a Skillable session for a convenient reference.
+:::
 
-!!!info "We'll use GitHub Codespaces as our development environment."
+:::info "We'll use GitHub Codespaces as our development environment."
+:::
 
 The [contoso-chat](https://aka.ms/aitour/contoso-chat) application sample comes with a _devcontainer.json_ configuration file that provides a pre-built development environment with minimal manual effort required in setup. Let's get that running.
 

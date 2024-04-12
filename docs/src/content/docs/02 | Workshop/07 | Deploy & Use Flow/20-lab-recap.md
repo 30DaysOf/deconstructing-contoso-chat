@@ -1,4 +1,6 @@
-# Lab Recap
+---
+title: "Lab Recap"
+---
 
 > [!hint] What We Learned Today
 

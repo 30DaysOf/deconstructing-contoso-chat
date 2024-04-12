@@ -1,4 +1,6 @@
-# 10. VSCode Config Env
+---
+title: "10. VSCode Config Env"
+---
 
 > [!hint]
 _This assumes you the Azure Resource Group and related resources were setup previously. We'll now configure service endpoints and keys as env vars for programmatic access from Jupyter Notebooks._

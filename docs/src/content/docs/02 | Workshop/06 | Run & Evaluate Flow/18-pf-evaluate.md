@@ -1,4 +1,6 @@
-# 18. PromptFlow: Evaluate
+---
+title: "18. PromptFlow: Evaluate"
+---
 
 > [!NOTE]
 > You've built and run the _contoso-chat_ prompt flow locally using the Visual Studio Code Prompt Flow extension and SDK. Now it's time to **evaluate** the quality of your LLM app response to see if it's performing up to expectations. Let's dive in.

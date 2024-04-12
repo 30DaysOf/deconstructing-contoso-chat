@@ -1,4 +1,6 @@
-# 12. VSCode Populate Database
+---
+title: "12. VSCode Populate Database"
+---
 
 > [!NOTE]
 _This assumes you setup the Azure CosmosDB resource earlier. In this section, we'll populate it with customer data._

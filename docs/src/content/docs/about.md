@@ -1,5 +1,5 @@
 ---
-title: Let's Build Contoso Chat
+title: "Let's Build Contoso Chat"
 description: Welcome to the 30DaysOf Astro development. Let's learn about the Astro framework by building small projects every day.
 ---
 

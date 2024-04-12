@@ -2,12 +2,12 @@
 title: "02 | The App Scenario"
 ---
 
-# 02 | The App Scenario 
-!!!example "Consider this familiar enterprise scenario!"
+:::note "Consider this familiar enterprise scenario!"
 
-    You're a new hire in the Contoso Outdoors organization. They are an e-commerce company with a successful product catalog and loyal customer base focused on outdoor activities like camping and hiking. Their website is hugely popular but their customer service agents are being overwhelmed by calls that could be answered by information currently on the site. 
-    
-    For every call they fail to answer, they are potentially losing not just revenue, but customer loyalty. **You are part of the developer team tasked to build a Customer Support AI into the website** to meet that demand. The objective is to build and deploy a customer service agent that is _friendly, helpful, responsible, and relevant_ in its support interactions.
+You're a new hire in the Contoso Outdoors organization. They are an e-commerce company with a successful product catalog and loyal customer base focused on outdoor activities like camping and hiking. Their website is hugely popular but their customer service agents are being overwhelmed by calls that could be answered by information currently on the site. 
+
+For every call they fail to answer, they are potentially losing not just revenue, but customer loyalty. **You are part of the developer team tasked to build a Customer Support AI into the website** to meet that demand. The objective is to build and deploy a customer service agent that is _friendly, helpful, responsible, and relevant_ in its support interactions.
+:::
 
 Let's walk through how you can make this happen in your organization, using the Azure AI Platform. Well start with the _ideation_ phase which involves identifying the business case, connecting to your data, building the basic prompt flow (LLM App), then iterating locally to extend it for your app requirements. Let's understand how this maps to our workshop.
 
