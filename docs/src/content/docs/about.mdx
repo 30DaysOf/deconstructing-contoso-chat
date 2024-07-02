@@ -1,19 +1,67 @@
 ---
-title: "Introducing Contoso Chat"
-description: This website serves as a guide for self-guided exploration of the Contoso Chat sample for code-first development of a custom copilot application on Azure AI Studio. Start by understanding the application scenario, then complete the workshop to build, evaluate, deploy, and test, a custom copilot on Azure AI.
+title: "Getting Started"
+description: This page provides an introduction to the developer guide, sets out the learning objectives, and defines the pre-requisites for self-guided exploration of the sample.
 ---
 
+:::tip[Pre-Requisites]
+To complete this self-guided workshop, you will need the following:
+1. **Azure Subscription** - [sign up](https://azure.microsoft.com/free/) for a free account.
+1. **GitHub Account** - [sign up](https://github.com/signup) for a free account.
+1. **Access to Azure OpenAI** - [submit form](https://learn.microsoft.com/legal/cognitive-services/openai/limited-access) to request access.
+
+Some actions will require you to add role assignments (i.e., grant permissions) to specific resources. This will require you to be an **Owner** of the resource, or be granted permissions by your IT admin. [Learn more in this example](https://learn.microsoft.com/en-us/azure/ai-studio/quickstarts/get-started-code?tabs=macos#prerequisites).
+:::
+
+## 1. The Application Scenario
+
+Contoso Outdoor is a fictitious company that sells hiking and camping gear to outdoor adventure enthusiasts. That have multiple product categories, multiple items per category, and extensive information for each item - making it difficult for customers to quickly discover items or information on the site and potentially losing revenue. The company decides to invest in building a **retail copilot solution** that is integrated as a customer service chatbot (AI assistant) in their website.
+
 ![Contoso Outdoors Website](https://azure.github.io/Cloud-Native/assets/images/app-contoso-outdoors-2e49c3ff8b9705669d3e5f144b6aef09.png)
+
+Customers on the site can now click the chat icon and ask the copilot questions _in natural language_, and receive answers about items in the product catalog, or get recommendations based on their previous purchases. The retail copilot solution uses a **retrieval augmented generation (RAG) architecture** to ensure that responses are grounded in the company's product and customer data.
+
+![Contoso Outdoors Website](https://azure.github.io/Cloud-Native/assets/images/app-contoso-chat-concept-1e6a568ef26af525237d5b3df58804c8.png)
+
+
+## 2. The RAG Architecture
+
+The retrieval augmented generation approach follows the workflow shown in the fiture below:
+1. Customer **requests** in the website (App frontend) are sent to the Copilot (API backend) and processed by our copilot chat implementation.
+1. The request (natural language) is converted into a numeric representation (vector query) using an Azure OpenAI **embedding model**.
+1. The vectorized query is then used for **retrieval** of matching products from the product index maintained in Azure AI Search.
+1. The resulting matches are used to **augment** the user query, sending an enhanced prompt to the Azure OpenAI **chat completion** model.
+1. The model's response is then returned to the user and displayed in the web app.
+
+![RAG Architecture](https://azure.github.io/Cloud-Native/assets/images/copilot-architecture-a14ddb6e2ac8e5ded7e544f1093325fc.png)
+
+The architecture emphasizes four aspects. First, we need to **provision resources** to store the customer purchase history (database) and company product catalog (search indexes). Second, we need to **deploy models** (embedding, chat completion) that we can invoke during this interaction flow. Third, we need **orchestration tools** to coordinate the various interactions that need to occur between the receipt of the user request (prompt) and the returning of the final response (answer). And finally, we need to **deploy the copilot** to get a hosted endpoint accessible to the web app.
+
+
+## 3. The Paradigm Shift
+
+But there's more. Because we deal with natural language (inputs, outputs), we need new tools and metholodologies to _evaluate_ responses for quality and efficiency. This includes ensuring **responsible AI** operation that detects and mitigates threats like jailbreaking, and protects against harmful content that violates desired safety guidelines. 
+
+This is creating a **paradigm shift** from traditional MLOps application lifecycles (for predictive AI) to new **LLMOps lifecycles** (for generative AI). We now need tools that can **streamline end-to-end workflows** from design (ideation) to development (evaluation & iteration) and deployment (operationalization) - and **simplify critical processes** from model selection, to resource provisioning, and application monitoring. 
+
+![LLMOps](https://azure.github.io/Cloud-Native/assets/images/llm-app-lifecycle-6509347ca42b47d5c7ae425b890e5efe.png)
+
+## 4. The Azure AI Platform
+
+This is where the Azure AI Platform comes into the picture. [Azure AI Studio](https://aka.ms/aistudio) is the **unified platform for building generative AI solutions on Azure**. With Azure AI Studio, developers can explore and select models from the **Model Hub**, manage their model deployments with **AI hub resources** and build & deploy applications with **AI project resources**. And they can do this using Azure AI Studio UI experience (low-code) or with the Azure AI SDK (code-first).
+
+For our retail copilot solution, we will adopt the code-first approach, using relevant tools & processes to _build, evaluate, deploy, and test_ the Contoso Chat application on Azure AI.
+
+![Azure AI Platform](https://azure.github.io/Cloud-Native/assets/images/azure-ai-c35fed704147614a7f607c699852d602.png)
 
 ---
 
 import { Card, CardGrid, LinkCard, Icon } from '@astrojs/starlight/components';
 
 <LinkCard
-  title="Customizing Starlight"
-  description="Learn how to make your Starlight site your own with custom styles, fonts, and more."
-  href="/guides/customization/">
-  <Icon name="star" color="goldenrod" size="2rem" />
+  title="Explore the Azure AI Studio Documentation"
+  description="Learn the core concepts behind the Azure AI Studio platform. Try the quickstart tutorials and explore the tools and best practices from Promptflow orchestration to Responsible AI."
+  href="https://learn.microsoft.com/en-us/azure/ai-studio/">
 </LinkCard>
 
 
+## 5. What's Next?
