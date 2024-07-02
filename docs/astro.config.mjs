@@ -35,30 +35,46 @@ export default defineConfig({
 
 			sidebar: [
 				{
-					label: 'About',
+					label: 'Build a Retail Copilot E2E',
 					link: '/about/',
 				},
 				{
-					label: '01 | Introduction',
+					label: '1. Design It',
 					collapsed: false,
-					autogenerate: { directory: '01-introduction' },
+					autogenerate: { directory: '01-design' },
 				},
 				{
-					label: '02 | Workshop',
+					label: '2. Develop It',
 					collapsed: true,
-					autogenerate: { directory: '02-workshop' },
+					autogenerate: { directory: '02-develop' },
 				},
 				{
-					label: '03 | Concepts',
+					label: '3. Evaluate It',
 					collapsed: false,
-					autogenerate: { directory: '03-concepts' },
+					autogenerate: { directory: '03-evaluate' },
 				},
 				{
-					label: '04 | Tooling',
+					label: '4. Deploy It',
 					collapsed: false,
-					autogenerate: { directory: '04-tooling' },
+					autogenerate: { directory: '04-deploy' },
+				},
+				{
+					label: '5. Deliver It',
+					collapsed: false,
+					autogenerate: { directory: '05-deliver' },
+				},
+				{
+					label: 'Explore: Concepts',
+					collapsed: false,
+					autogenerate: { directory: '08-concepts' },
+				},
+				{
+					label: 'Explore: Tooling',
+					collapsed: false,
+					autogenerate: { directory: '09-tools' },
 				},
 			],
+			
 		}),
 
 	],
