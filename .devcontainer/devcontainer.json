@@ -10,7 +10,7 @@
     "features": {
         "ghcr.io/devcontainers/features/azure-cli:1": {},
 		"ghcr.io/devcontainers/features/git:1": {},
-		"ghcr.io/devcontainers/features/node:1": {}
+		"ghcr.io/devcontainers/features/node:2": {}
     },
 
 	"postCreateCommand": "cd docs; npm install && npx astro telemetry disable && npm run dev",
